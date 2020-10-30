@@ -165,28 +165,40 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: var(--black);
-background-color: yellow;
+color: var(--button);
+background-color: var(--black);
 
 }
 
+.hero{
+margin-top: 200px;
+margin-bottom: 0px;
+margin-left:auto;
+margin-right: auto;
+display:inline-block;
+} 
+
+
+
+
+
 .button-hero{
-  font-family: Roboto;
+  display: inline-block;
+font-family: Roboto;
 font-weight: 700;
 font-size: 16px;
 line-height: 1,87;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--button);
 background-color: var(--accent-cl);
 border-radius: 4px;
-margin-left: auto;
-margin-right: auto;
+height: 50px;
+width: 200px;
+margin-bottom: 210px;
+
 }
-
-
 
 .button{
   font-family: Roboto;
@@ -197,15 +209,18 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--black);
-
 }
-
 
 .button:hover {
 	color: var(--button);
 	background: var(--accent-cl);
   }
   
+
+
+
+
+
 
 .link {
   color: inherit;
