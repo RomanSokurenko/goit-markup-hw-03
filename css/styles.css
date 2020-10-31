@@ -171,7 +171,7 @@ margin-bottom: 40px;
 margin-left:452px;
 margin-right: 452px;
 display:inline-block;
-background-color: crimson;
+
 font-family: Roboto;
 font-weight: 900;
 font-size: 44px;
@@ -240,14 +240,89 @@ color:var(--black);
 }
 
 .list-content {
-
 display:flex
 }
 
-.list-item {
+.list-item :not(:last-child){margin-right: 30px;
   background-color: yellow;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
 
+.text  {
+  margin-right: 30px;
+  margin-bottom: 186px;
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--gray);
+
+}
+.text-item :not(:last-child){margin-right: 30px;}
+
+.section-job{
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--black);
+
+}
+
+.img-content{
+  display: flex;
+  margin-bottom: 0px;
+  
+}
+.img-content li{
+  margin-right: 30px;
+  margin-bottom: 188px;
+}
+
+.team{
+ display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  width: 1250px;
+}
+
+.team-item {
+ margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+
+.our-team{
+  font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.03em;
+color:var(--black);
+
+text-align: center;
+}
+
+
+.position{
+  font-family: Roboto;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.03em;
+color:var(--gray);
+
+text-align: center;
+
+}
 
 
 
@@ -265,8 +340,7 @@ display:flex
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black);
-  background-color: rgb(0, 139, 19);
-  
+
 }
 
 .section-title-p{
@@ -278,52 +352,10 @@ color: var(--gray);
 }
 
 
-.section-job{
-  font-family: Roboto;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--black);
-background-color: violet;
-}
-
-.job-img{
-  background-color: teal;
-}
-
-.text{
-font-family: Roboto;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color:var(--gray);
-}
 
 
-.our-team{
-  font-family: Roboto;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.1875;
-letter-spacing: 0.03em;
-color:var(--black);
-background-color: saddlebrown;
-}
 
-.team-img{
-  background-color: yellowgreen;
-}
-.position{
-  font-family: Roboto;
-font-size: 16px;
-line-height: 1.1875;
-letter-spacing: 0.03em;
-color:var(--gray);
-background-color: salmon;
 
-}
 .tel{
 font-family: Roboto;
 font-size: 14px;
