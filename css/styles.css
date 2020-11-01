@@ -145,7 +145,7 @@ font-weight: 700;
 font-size: 26px;
 line-height:1.19;
 letter-spacing: 0.03em;
-color: var(--accent-cl)
+color: var(--black)
 }
 
 .logo-web{
@@ -154,7 +154,7 @@ font-weight: 700;
 font-size: 26px;
 line-height:1.19;
 letter-spacing: 0.03em;
-color: var(--black)
+color: var(--accent-cl)
 }
 
 .section-hero{
@@ -298,6 +298,7 @@ color:var(--black);
  margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 4 - 30px);
+  margin-bottom: 205px;
 }
 
 
@@ -351,9 +352,37 @@ letter-spacing: 0.03em;
 color: var(--gray);
 }
 
+.footer{
+  background-color: var(--black);
+}
+.footer-logo{
+  background-color: var(--button);
+}
+.footer .logo{
+  color: var(--button);
+margin-top: 60px;
+  display: inline-block;
+}
 
+.address-map{
+  margin-top: 20px;
+  display: inline-block;
 
+}
+.address{
+  padding: 0px;
+   margin-top: 20px;
+   color: var(--button);
+}
+.connection{
+  padding: 0px;
+   margin-top:9px;
+}
+.connection .tel{
+  padding-bottom: 60px;
+  display: inline-block;
 
+}
 
 
 .tel{
