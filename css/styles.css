@@ -320,37 +320,10 @@ font-size: 16px;
 line-height: 1.1875;
 letter-spacing: 0.03em;
 color:var(--gray);
-
 text-align: center;
-
 }
 
 
-
-
-
-
-
-
-
-
-.section-title {
-  font-family: Roboto;sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--black);
-
-}
-
-.section-title-p{
-font-family: Roboto;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-color: var(--gray);
-}
 
 .footer{
   background-color: var(--black);
@@ -381,9 +354,7 @@ margin-top: 60px;
 .connection .tel{
   padding-bottom: 60px;
   display: inline-block;
-
 }
-
 
 .tel{
 font-family: Roboto;
@@ -406,3 +377,54 @@ color:var(--gray);
 color: var(--accent-cl);
 }
 
+.button-item{
+display: flex;
+Justify-content: center;
+margin-bottom: 50px;
+ 
+}
+
+.button-margin{
+  margin-right: 8px;
+}
+  
+.section-title {
+  font-family: Roboto;sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.section-title-p{
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--gray);
+text-align: center;
+margin-bottom: 50px;
+margin-top: 0px;
+}
+
+.tabl{
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0px;
+ 
+  
+}
+
+.tabl-item{
+margin-left: 30px;
+margin-top: 30px;
+  flex-basis: calc(100% / 9 - 30px);
+  
+}
